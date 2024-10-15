@@ -3,28 +3,45 @@ import type { Education } from '../types';
 
 export const items: Array<Education> = [
 	{
-		degree: 'Bachelor degree of Computer Science',
+		degree: 'Masters of Computer Applications',
 		description: '',
-		location: 'Tunisia',
-		logo: Assets.Unknown,
+		location: 'Delhi, India',
+		logo: Assets.Jain,
 		name: '',
-		organization: 'ISTIC',
-		period: { from: new Date(2020, 0, 1), to: new Date(2022, 5, 1) },
+		organization: 'Jain University',
+		period: { from: new Date(2021, 8, 1), to: new Date(2023, 8, 1) },
 		shortDescription: '',
-		slug: 'dummy-education-item',
-		subjects: ['C', 'Algorithm', 'Algebra', 'Python', 'C++', 'Java', 'English']
+		slug: 'edu-mca',
+		subjects: [
+			'Database Management Systems',
+			'Cloud Engineering',
+			'Computer Architecture',
+			'Algorithms and Data structures'
+		]
 	},
 	{
-		degree: 'PhD of Computer Science',
+		degree: 'Bachelor of Computer Applications',
 		description: '',
-		location: 'USA',
-		logo: Assets.Unknown,
+		location: 'Delhi, India',
+		logo: Assets.Smu,
 		name: '',
-		organization: 'MIT',
-		period: { from: new Date(2023, 0, 1) },
+		organization: 'Sikkim Manipal University',
+		period: { from: new Date(2013, 6, 1), to: new Date(2016, 5, 30) },
 		shortDescription: '',
-		slug: 'dummy-education-item-2',
-		subjects: ['Assembly', 'Rust', 'Computer Architecture', 'Algorithms and Data structures']
+		slug: 'edu-bca',
+		subjects: ['C', 'Algorithm', 'Algebra', 'Python', 'C++', 'Java', 'Computer Networks', 'English']
+	},
+	{
+		degree: 'O Level - Computer Programming',
+		description: '',
+		location: 'Delhi, India',
+		logo: Assets.Smu,
+		name: '',
+		organization: 'Department of Electronics Accreditation of Computer Courses',
+		period: { from: new Date(2016, 6, 1), to: new Date(2017, 6, 1) },
+		shortDescription: '',
+		slug: 'edu-olevel',
+		subjects: ['C', 'Algorithm', 'Web Development', 'C++', 'Multimedia Design']
 	}
 ];
 

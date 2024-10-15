@@ -31,7 +31,7 @@ export const items: Array<Experience> = [
 		color: 'blue',
 		links: [],
 		logo: Assets.Unknown,
-		shortDescription: 'Creating awesome applications for customers.'
+		shortDescription: '- Creating awesome applications for customers.'
 	},
 	{
 		slug: 'software-freelance-junior',

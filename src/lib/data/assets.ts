@@ -54,6 +54,8 @@ const Assets = {
 	PostgreSQL: a('postgres.png'),
 	Firebase: a('firebase.png'),
 	Sass: a('sass.png'),
+	Smu: a('smu.png'),
+	Jain: a('jain.webp'),
 	Unknown: a('no-img.svg'),
 	MongoDB: a('mongodb.svg'),
 	Redis: a('redis.svg'),

@@ -10,7 +10,7 @@ export const items: Array<Project> = [
 			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore non dolores voluptatibus vitae praesentium aperiam, iure laboriosam repellendus sunt explicabo pariatur totam enim, nihil animi quisquam. Sit vero quod laborum!',
 		shortDescription:
 			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore non dolores voluptatibus vitae praesentium aperiam, iure laboriosam repellendus sunt explicabo pariatur totam enim, nihil animi quisquam. Sit vero quod laborum!',
-		links: [{ to: 'https://github.com/RiadhAdrani/slick-portfolio-svelte', label: 'GitHub' }],
+		links: [{ to: 'https://github.com/aworkaround', label: 'GitHub' }],
 		logo: Assets.Unknown,
 		name: 'Slick Portfolio',
 		period: {
@@ -20,7 +20,7 @@ export const items: Array<Project> = [
 		type: 'Website Template'
 	},
 	{
-		slug: 'slick-portfolio-svelte',
+		slug: 'engineeer',
 		color: '#ff3e00',
 		description:
 			'A Vercel-like developer portfolio website template made with Typescript and SvelteKit.',

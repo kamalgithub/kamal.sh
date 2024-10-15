@@ -1,0 +1,37 @@
+{
+	"name": "portfolio",
+	"image": "mcr.microsoft.com/devcontainers/typescript-node:dev-22-bullseye",
+	"features": {
+		"ghcr.io/devcontainers/features/node:1": {}
+	},
+	"forwardPorts": [
+		5173
+	],
+	"portsAttributes": {
+		"5173": {
+			"label": "App",
+			"onAutoForward": "openBrowserOnce"
+		}
+	},
+	"postCreateCommand": "yarn install",
+	"customizations": {
+		"vscode": {
+			"settings": {
+				"workbench.colorTheme": "GitHub Dark Default",
+				"workbench.iconTheme": "material-icon-theme",
+				"workbench.productIconTheme": "feather-vscode",
+				"files.autoSave": "afterDelay",
+				"editor.minimap.enabled": false,
+				"editor.defaultFormatter": "esbenp.prettier-vscode"
+			},
+			"extensions": [
+				"roonie007.hide-files",
+				"streetsidesoftware.code-spell-checker",
+				"GitHub.github-vscode-theme",
+				"PKief.material-icon-theme",
+				"melishev.feather-vscode",
+				"esbenp.prettier-vscode"
+			]
+		}
+	}
+}
