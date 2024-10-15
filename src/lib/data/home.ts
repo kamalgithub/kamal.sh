@@ -1,41 +1,41 @@
 import { Platform } from '$lib/types';
 import { getSkills } from './skills';
 
-export const title = 'Home';
+export const title = 'Portfolio';
 
-export const name = 'Name';
+export const name = 'Kamal';
 
-export const lastName = 'LastName';
+export const lastName = 'Kumar';
 
 export const description =
-	'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Corrupti, rerum. Debitis accusantium deleniti enim iste dignissimos? Similique, exercitationem! Odit vero, numquam quae ratione maxime sunt reiciendis laudantium quaerat iure ipsum!';
+	'Lead Cloud & DevOps Engineer with 7 years specializing in Azure Cloud infrastructure and DevOps. Proven track record optimizing reliability, security, and cost-efficiency through automation and CI/CD.';
 
 export const links: Array<{ platform: Platform; link: string }> = [
-	{ platform: Platform.GitHub, link: 'https://github.com/' },
+	{ platform: Platform.GitHub, link: 'https://github.com/aworkaround' },
 	{
 		platform: Platform.Linkedin,
-		link: 'https://www.linkedin.com/'
+		link: 'https://www.linkedin.com/in/kamal18'
 	},
-	{
-		platform: Platform.Twitter,
-		link: 'https://twitter.com/'
-	},
-	{
-		platform: Platform.StackOverflow,
-		link: 'https://stackoverflow.com/'
-	},
+	// {
+	// 	platform: Platform.Twitter,
+	// 	link: 'https://twitter.com/'
+	// },
+	// {
+	// 	platform: Platform.StackOverflow,
+	// 	link: 'https://stackoverflow.com/'
+	// },
 	{
 		platform: Platform.Email,
-		link: 'riadh_adrani@hotmail.fr'
+		link: 'kamal242@outlook.com'
 	},
 	{
 		platform: Platform.Youtube,
-		link: 'https://www.youtube.com'
+		link: 'https://www.youtube.com/@devcrypted'
 	},
-	{
-		platform: Platform.Facebook,
-		link: 'https://www.facebook.com'
-	}
+	// {
+	// 	platform: Platform.Facebook,
+	// 	link: 'https://www.facebook.com'
+	// }
 ];
 
 export const skills = getSkills('js', 'css', 'html', 'reactjs', 'sass', 'svelte', 'ts');
