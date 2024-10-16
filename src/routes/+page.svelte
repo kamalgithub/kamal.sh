@@ -31,7 +31,7 @@
 		<div class="row justify-center md:justify-start p-y-15px p-x-0px gap-2">
 			{#each links as link}
 				<a
-					class="decoration-none"
+					class="decoration-none p-r-1"
 					href={`${isEmail(link.link) ? 'mailto:' : ''}${link.link}`}
 					target="_blank"
 					rel="noreferrer"

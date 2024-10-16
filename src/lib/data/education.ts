@@ -16,7 +16,10 @@ export const items: Array<Education> = [
 			'Database Management Systems',
 			'Cloud Engineering',
 			'Computer Architecture',
-			'Algorithms and Data structures'
+			'Algorithms and Data structures',
+			'Machine Learning',
+			'Web Development',
+			'DevOps'
 		]
 	},
 	{
@@ -29,19 +32,29 @@ export const items: Array<Education> = [
 		period: { from: new Date(2013, 6, 1), to: new Date(2016, 5, 30) },
 		shortDescription: '',
 		slug: 'edu-bca',
-		subjects: ['C', 'Algorithm', 'Algebra', 'Python', 'C++', 'Java', 'Computer Networks', 'English']
+		subjects: [
+			'Algorithm',
+			'Algebra',
+			'Python',
+			'C++',
+			'Java',
+			'Computer Networks',
+			'Computer Architecture',
+			'DSA',
+			'Cybersecurity'
+		]
 	},
 	{
-		degree: 'O Level - Computer Programming',
+		degree: 'O Level (Computer Programming)',
 		description: '',
 		location: 'Delhi, India',
-		logo: Assets.Smu,
+		logo: Assets.Doeacc,
 		name: '',
-		organization: 'Department of Electronics Accreditation of Computer Courses',
+		organization: 'DOEACC',
 		period: { from: new Date(2016, 6, 1), to: new Date(2017, 6, 1) },
 		shortDescription: '',
 		slug: 'edu-olevel',
-		subjects: ['C', 'Algorithm', 'Web Development', 'C++', 'Multimedia Design']
+		subjects: ['C', 'Web Technologies', 'C++', 'Multimedia Design', 'Computer Organization']
 	}
 ];
 
