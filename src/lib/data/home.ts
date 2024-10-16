@@ -24,6 +24,10 @@ export const links: Array<{ platform: Platform; link: string }> = [
 		platform: Platform.Email,
 		link: 'kamal.devops@outlook.com'
 	}
+	{
+		platform: Platform.Website,
+		link: 'https://devcrypted.com'
+	}
 	// ,{
 	// 	platform: Platform.Twitter,
 	// 	link: 'https://twitter.com/'
