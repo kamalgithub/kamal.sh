@@ -1,7 +1,7 @@
 import Assets from './assets';
 import type { Skill, SkillCategory } from '../types';
-import aks from '../md/aks.md?raw';
 import { omit, type StringWithAutoComplete } from '@riadh-adrani/utils';
+// import aks from '../md/aks.md?raw'; // Importing the Markdown for showing skillet
 
 const defineSkillCategory = <S extends string>(data: SkillCategory<S>): SkillCategory<S> => data;
 
@@ -45,6 +45,15 @@ export const items = [
 		category: 'cloud'
 	}),
 	defineSkill({
+		slug: 'azure-ai',
+		color: 'orange',
+		description:
+			'',
+		logo: Assets.Robot,
+		name: 'Azure OpenAI Service',
+		category: 'cloud'
+	}),
+	defineSkill({
 		slug: 'aad',
 		color: 'red',
 		description:
@@ -56,7 +65,8 @@ export const items = [
 	defineSkill({
 		slug: 'aks',
 		color: 'red',
-		description: aks,
+		// description: aks, // Provide description from Markdown
+		description: 'Azure Kubernetes Service',
 		logo: Assets.Aks,
 		name: 'Azure Kubernetes Service (AKS)',
 		category: 'cloud'

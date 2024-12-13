@@ -53,6 +53,16 @@ export interface Skill<S extends string = string> extends Omit<Item<S>, 'shortDe
 	category?: SkillCategory;
 }
 
+export interface CertificationCategory<S extends string = string> {
+	slug: S;
+	name: string;
+}
+
+export interface Certification<S extends string = string> extends Omit<Item<S>, 'shortDescription'> {
+	color: string;
+	category?: CertificationCategory;
+}
+
 export interface Project<S extends string = string> extends Item<S> {
 	links: Array<Link>;
 	color: Color;

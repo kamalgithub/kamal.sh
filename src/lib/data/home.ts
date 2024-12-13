@@ -8,7 +8,7 @@ export const name = 'Kamal';
 export const lastName = 'Kumar';
 
 export const description =
-	'Lead Cloud & DevOps Engineer with 7 years specializing in Azure Cloud infrastructure and DevOps. Proven track record optimizing reliability, security, and cost-efficiency through automation and CI/CD.';
+	"Hi, I’m Kamal Kumar 👋 — Tech enthusiast 🧑‍💻, YouTube creator 📽️, and Lead Platform Engineer. I’m passionate about code optimization, security, and automation. I’d happily spend 2 hours automating a 10-minute reoccurring task 😅!";
 
 export const links: Array<{ platform: Platform; link: string }> = [
 	{

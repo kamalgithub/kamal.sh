@@ -102,7 +102,14 @@ const Assets = {
 	Policy: a('policy.svg'),
 	Datadog: a('datadog.svg'),
 	GoldenImage: a('goldenimage.svg'),
-	Postcss: a('postcss.svg')
+	Postcss: a('postcss.svg'),
+	Robot: a('robot.png'),
+	Az700: a('az-700.png'),
+	Az400: a('az-400.png'),
+	Az204: a('az-204.png'),
+	Az500: a('az-500.png'),
+	Ai900: a('ai-900.png'),
+	Az300: a('az-300.png'),
 };
 
 export default Assets;
