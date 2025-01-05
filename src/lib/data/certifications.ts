@@ -1,6 +1,5 @@
 import Assets from './assets';
 import type { Certification, CertificationCategory } from '../types';
-import aks from '../md/aks.md?raw';
 import { omit, type StringWithAutoComplete } from '@riadh-adrani/utils';
 
 const defineCertCategory = <S extends string>(data: CertificationCategory<S>): CertificationCategory<S> => data;
@@ -37,7 +36,7 @@ const defineCert = <S extends string>(
 
 export const items = [
 	defineCert({
-		slug: 'az-700',
+		slug: '#az-700',
 		color: 'green',
 		description:
 			'Microsoft Certified',
@@ -47,7 +46,7 @@ export const items = [
 		// completeDate: 'June 2022'
 	}),
 	defineCert({
-		slug: 'az-400',
+		slug: '#az-400',
 		color: 'orange',
 		description:
 			'Microsoft Certified',
@@ -56,7 +55,7 @@ export const items = [
 		category: 'cloud',
 	}),
 	defineCert({
-		slug: 'ai-900',
+		slug: '#ai-900',
 		color: 'red',
 		description:
 			'Microsoft Certified',
@@ -65,7 +64,7 @@ export const items = [
 		category: 'cloud'
 	}),
 	defineCert({
-		slug: 'az-204',
+		slug: '#az-204',
 		color: 'red',
 		description: 'Microsoft Certified',
 		logo: Assets.Az204,
@@ -73,7 +72,7 @@ export const items = [
 		category: 'cloud'
 	}),
 	defineCert({
-		slug: 'az-500',
+		slug: '#az-500',
 		color: 'orange',
 		description: 'Microsoft Certified',
 		logo: Assets.Az500,
@@ -81,7 +80,7 @@ export const items = [
 		category: 'cloud'
 	}),
 	defineCert({
-		slug: 'az-300',
+		slug: '#az-300',
 		color: 'blue',
 		description:
 			'Microsoft Certified',
@@ -90,7 +89,16 @@ export const items = [
 		category: 'cloud'
 	}),
 	defineCert({
-		slug: 'tf-associate',
+		slug: '#cka',
+		color: 'orange',
+		description:
+			'LinuxFoundation Certified',
+		logo: Assets.Kubernetes,
+		name: 'Kubernetes Administrator (CKA)',
+		category: 'containerization'
+	}),
+	defineCert({
+		slug: '#tf-associate',
 		color: 'green',
 		description:
 			'Hashicorp Certified',
@@ -99,7 +107,7 @@ export const items = [
 		category: 'config-mgmt'
 	}),
 	defineCert({
-		slug: 'gitlab-associate',
+		slug: '#gitlab-associate',
 		color: 'yellow',
 		description:
 			'GitLab Certified',
@@ -108,7 +116,7 @@ export const items = [
 		category: 'devops-tools'
 	}),
 	defineCert({
-		slug: 'mcsa',
+		slug: '#mcsa',
 		color: 'pink',
 		description:
 			'Microsoft Certified',
