@@ -52,7 +52,7 @@ export const items = [
 			'Microsoft Certified',
 		logo: Assets.Az400,
 		name: 'Azure DevOps Expert (AZ-400)',
-		category: 'cloud',
+		category: 'devops-tools',
 	}),
 	defineCert({
 		slug: 'ai-900',
