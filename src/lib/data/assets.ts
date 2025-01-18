@@ -110,6 +110,8 @@ const Assets = {
 	Az500: a('az-500.png'),
 	Ai900: a('ai-900.png'),
 	Az300: a('az-300.png'),
+	Az104: a('az-104.png'),
+	Az305: a('az-305.png')
 };
 
 export default Assets;

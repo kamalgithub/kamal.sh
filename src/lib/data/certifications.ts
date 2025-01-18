@@ -80,6 +80,22 @@ export const items = [
 		category: 'cloud'
 	}),
 	defineCert({
+		slug: 'az-104',
+		color: 'green',
+		description: 'Microsoft Certified',
+		logo: Assets.Az104,
+		name: 'Azure Administrator Associate (AZ-104)',
+		category: 'cloud'
+	}),
+	// defineCert({
+	// 	slug: 'az-305',
+	// 	color: 'purple',
+	// 	description: 'Microsoft Certified',
+	// 	logo: Assets.Az305,
+	// 	name: 'Azure Solutions Architect (AZ-305)',
+	// 	category: 'cloud'
+	// }),
+	defineCert({
 		slug: 'az-300',
 		color: 'blue',
 		description:
