@@ -50,7 +50,7 @@ export const items = [
 		color: 'orange',
 		description:
 			'Microsoft Certified',
-		logo: Assets.Az400,
+		logo: Assets.AzDevOps,
 		name: 'Azure DevOps Expert (AZ-400)',
 		category: 'devops-tools',
 	}),
