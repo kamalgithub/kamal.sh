@@ -152,12 +152,12 @@ export const items = [
 		category: 'lang'
 	}),
 	defineSkill({
-		slug: 'kubernets',
+		slug: 'kubernetes',
 		color: 'green',
 		description:
 			'I have advanced skills in Kubernetes for orchestrating containerized applications. I’ve deployed and managed complex applications using Helm charts and custom resources, ensuring high availability and resilience. Additionally, I’ve implemented comprehensive monitoring and logging solutions to maintain visibility and performance across Kubernetes clusters.',
-		logo: Assets.Kubernets,
-		name: 'Kubernets',
+		logo: Assets.Kubernetes,
+		name: 'Kubernetes',
 		category: 'containerization'
 	}),
 	defineSkill({

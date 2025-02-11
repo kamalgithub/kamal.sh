@@ -52,7 +52,7 @@ export const skills = getSkills(
 	'github',
 	'gitlab',
 	'go',
-	'kubernets',
+	'kubernetes',
 	'network',
 	'powershell',
 	'python',

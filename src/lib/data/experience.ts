@@ -20,7 +20,7 @@ export const items: Array<Experience> = [
 			'docker',
 			'git',
 			'gitlab',
-			'kubernets',
+			'kubernetes',
 			'ubuntu',
 			'rhel',
 			'network',

@@ -200,8 +200,8 @@ export const items = [
 	// 	color: 'green',
 	// 	description:
 	// 		'Linux Foundation',
-	// 	logo: Assets.Kubernets,
-	// 	name: 'Certified Kubernets Administrator',
+	// 	logo: Assets.Kubernetes,
+	// 	name: 'Certified Kubernetes Administrator',
 	// 	category: 'containerization'
 	// }),
 	// defineCert({
