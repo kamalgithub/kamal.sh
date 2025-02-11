@@ -19,7 +19,7 @@ export const links: Array<{ platform: Platform; link: string }> = [
 		platform: Platform.Youtube,
 		link: 'https://www.youtube.com/@devcrypted'
 	},
-	{ platform: Platform.GitHub, link: 'https://github.com/aworkaround' },
+	{ platform: Platform.GitHub, link: 'https://github.com/devcrypted' },
 	{
 		platform: Platform.Email,
 		link: 'kamal.devops@outlook.com'
