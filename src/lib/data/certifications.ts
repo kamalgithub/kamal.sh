@@ -16,6 +16,7 @@ const categories = [
 	defineCertCategory({ name: 'Configuration Management', slug: 'config-mgmt' }),
 	defineCertCategory({ name: 'Containerization', slug: 'containerization' }),
 	defineCertCategory({ name: 'Operating Systems', slug: 'os' }),
+	defineCertCategory({ name: 'API Management', slug: 'api' }),
 	defineCertCategory({ name: 'Soft Skills', slug: 'soft' })
 ] as const;
 
@@ -53,6 +54,24 @@ export const items = [
 		logo: Assets.AzDevOps,
 		name: 'Azure DevOps Expert (AZ-400)',
 		category: 'devops-tools',
+	}),
+	defineCert({
+		slug: 'api-architect',
+		color: 'green',
+		description:
+			'Gravitee Certified',
+		logo: Assets.Gravitee,
+		name: 'API Management Architect',
+		category: 'api',
+	}),
+	defineCert({
+		slug: 'api-prof',
+		color: 'blue',
+		description:
+			'Gravitee Certified',
+		logo: Assets.Gravitee,
+		name: 'API Management Professional',
+		category: 'api',
 	}),
 	defineCert({
 		slug: 'ai-900',

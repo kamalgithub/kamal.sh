@@ -112,7 +112,8 @@ const Assets = {
 	Az300: a('az-300.png'),
 	Az104: a('az-104.png'),
 	Az305: a('az-305.png'),
-	AzDevOps: a('azure-devops.png')
+	AzDevOps: a('azure-devops.png'),
+	Gravitee: a('gravitee.png')
 };
 
 export default Assets;
