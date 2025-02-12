@@ -74,6 +74,33 @@ export const items = [
 		category: 'api',
 	}),
 	defineCert({
+		slug: 'api-designer',
+		color: 'pink',
+		description:
+			'API Academy Certified',
+		logo: Assets.APIDesigner,
+		name: 'API Designer',
+		category: 'api',
+	}),
+	defineCert({
+		slug: 'api-product-manager',
+		color: 'cyan',
+		description:
+			'API Academy Certified',
+		logo: Assets.APIProdMgr,
+		name: 'API Product Manager',
+		category: 'api',
+	}),
+	defineCert({
+		slug: 'api-security-architect',
+		color: 'green',
+		description:
+			'API Academy Certified',
+		logo: Assets.APISecArch,
+		name: 'API Security Architect',
+		category: 'api',
+	}),
+	defineCert({
 		slug: 'ai-900',
 		color: 'red',
 		description:

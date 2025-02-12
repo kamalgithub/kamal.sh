@@ -113,6 +113,9 @@ const Assets = {
 	Az104: a('az-104.png'),
 	Az305: a('az-305.png'),
 	AzDevOps: a('azure-devops.png'),
+	APIDesigner: a('APIDesigner.png'),
+	APIProdMgr: a('APIProdMgr.png'),
+	APISecArch: a('APISecArch.png'),
 	Gravitee: a('gravitee.png')
 };
 
