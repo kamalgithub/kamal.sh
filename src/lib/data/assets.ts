@@ -116,7 +116,9 @@ const Assets = {
 	APIDesigner: a('APIDesigner.png'),
 	APIProdMgr: a('APIProdMgr.png'),
 	APISecArch: a('APISecArch.png'),
-	Gravitee: a('gravitee.png')
+	Gravitee: a('gravitee.png'),
+	Oracle: a('oracle.png'),
+	ITC: a('itc.png')
 };
 
 export default Assets;

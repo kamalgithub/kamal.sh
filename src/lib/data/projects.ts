@@ -4,172 +4,144 @@ import type { Project } from '../types';
 
 export const items: Array<Project> = [
 	{
-		slug: 'vuln-mgmt-dashboard',
-		color: 'green',
-		description:
-			'Developed a Flask-based dashboard to track and mitigate vulnerabilities across Azure services.',
-		shortDescription:
-			'Developed a Flask-based dashboard to track and mitigate vulnerabilities across Azure services.',
-		links: [],
-		logo: Assets.Python,
-		name: 'Vulnerabilities Dashboard in Flask (Python)',
-		period: { from: new Date(2018, 4), to: new Date(2018, 8) },
-		skills: getSkills('svelte', 'ts', 'tailwind', 'sass'),
-		type: 'Python'
-	},
-	{
-		slug: 'tf-modules',
+		slug: 'devsecops-implementation',
 		color: 'red',
 		description:
-			'Created reusable Terraform modules to streamline infrastructure deployment for platform and application teams.',
+			'Orchestrated end-to-end security integration across CI/CD pipelines with SAST, DAST, container scanning, and infrastructure compliance automation. Delivered 40% reduction in security vulnerabilities and sustained SOC 2 compliance.',
 		shortDescription:
-			'Created reusable Terraform modules to streamline infrastructure deployment for platform and application teams.',
+			'End-to-end DevSecOps implementation with comprehensive security automation and compliance.',
 		links: [],
-		logo: Assets.Terraform,
-		name: 'Terraform Modules Development',
-		period: { from: new Date(2018, 4), to: new Date(2019, 6) },
-		skills: getSkills('svelte', 'ts', 'tailwind', 'sass'),
-		type: 'Terraform'
+		logo: Assets.Security,
+		name: 'DevSecOps Implementation',
+		period: { from: new Date(2024, 0), to: new Date(2025, 0) },
+		skills: getSkills('azure', 'security', 'devops', 'kubernetes', 'docker'),
+		type: 'Security'
 	},
 	{
-		slug: 'azure-caf',
+		slug: 'enterprise-aks-migration',
 		color: 'blue',
 		description:
-			'Developed a framework to accelerate cloud adoption by automating key infrastructure and security configurations.',
+			'Architected enterprise-grade cloud-native transformation from legacy monolith to microservices on AKS. Deployed GitOps workflows, infrastructure as code, and comprehensive monitoring. Secured 99.99% availability SLA while serving 100K+ concurrent users.',
 		shortDescription:
-			'Developed a framework to accelerate cloud adoption by automating key infrastructure and security configurations.',
+			'Enterprise AKS migration platform serving 100K+ users with 99.99% availability.',
 		links: [],
-		logo: Assets.Automation,
-		name: 'Cloud Acceleration Framework Development',
-		period: { from: new Date(2022, 6), to: new Date(2023, 8) },
-		skills: getSkills('svelte', 'ts', 'tailwind', 'sass'),
-		type: 'Automation'
-	},
-	{
-		slug: 'hub-and-spoke',
-		color: 'orange',
-		description:
-			'Implemented hub-and-spoke network topology to manage Azure Landing Zones for efficient and secure multi-team collaboration.',
-		shortDescription:
-			'Implemented hub-and-spoke network topology to manage Azure Landing Zones for efficient and secure multi-team collaboration.',
-		links: [],
-		logo: Assets.LandingZone,
-		name: 'Azure Landing Zone Development (hub-and-spoke)',
-		period: { from: new Date(2022, 6), to: new Date(2024, 8) },
-		skills: getSkills('svelte', 'ts', 'tailwind', 'sass'),
-		type: 'Azure'
-	},
-	{
-		slug: 'cloud-migrate',
-		color: 'blue',
-		description:
-			'Led the migration of critical workloads from on-premises infrastructure to Azure, ensuring seamless transition and minimal downtime.',
-		shortDescription:
-			'Led the migration of critical workloads from on-premises infrastructure to Azure, ensuring seamless transition and minimal downtime.',
-		links: [],
-		logo: Assets.Migration,
-		name: 'On-premises to Cloud Migration',
-		period: { from: new Date(2018, 10), to: new Date(2019, 10) },
-		skills: getSkills('svelte', 'ts', 'tailwind', 'sass'),
+		logo: Assets.Aks,
+		name: 'Enterprise AKS Migration Platform',
+		period: { from: new Date(2024, 0), to: new Date(2025, 0) },
+		skills: getSkills('azure', 'aks', 'kubernetes', 'terraform', 'devops'),
 		type: 'Migration'
 	},
 	{
-		slug: 'new-azure-subscription-automation',
+		slug: 'azure-landing-zones',
 		color: 'green',
 		description:
-			'Automated the entire process of provisioning new Azure subscriptions with predefined policies and governance controls.',
+			'Designed enterprise-scale Terraform framework enabling rapid cloud adoption for 200+ teams. Automated networking, security policies, governance, and monitoring infrastructure. Reduced organizational cloud onboarding time by 85% through standardized templates.',
 		shortDescription:
-			'Automated the entire process of provisioning new Azure subscriptions with predefined policies and governance controls.',
+			'Enterprise Azure Landing Zones automation reducing onboarding time by 85%.',
 		links: [],
-		logo: Assets.Automation,
-		name: 'New Subscription vending end-to-end automation',
-		period: { from: new Date(2022, 6), to: new Date(2023, 8) },
-		skills: getSkills('svelte', 'ts', 'tailwind', 'sass'),
-		type: 'Automation'
+		logo: Assets.LandingZone,
+		name: 'Azure Landing Zone Automation',
+		period: { from: new Date(2022, 5), to: new Date(2024, 7) },
+		skills: getSkills('azure', 'terraform', 'network', 'security', 'devops'),
+		type: 'Infrastructure'
 	},
 	{
-		slug: 'policies-and-controls',
+		slug: 'terraform-modules-framework',
+		color: 'purple',
+		description:
+			'Architected 50+ reusable Terraform modules across 15+ environments using design patterns and high-level design principles. Created standardized infrastructure templates for AKS, Container Apps, and Functions ensuring compliance and consistency.',
+		shortDescription:
+			'Comprehensive Terraform modules framework for enterprise infrastructure automation.',
+		links: [],
+		logo: Assets.Terraform,
+		name: 'Terraform Modules Development Framework',
+		period: { from: new Date(2020, 0), to: new Date(2023, 7) },
+		skills: getSkills('terraform', 'azure', 'devops', 'automation'),
+		type: 'Infrastructure as Code'
+	},
+	{
+		slug: 'cloud-cost-optimization',
 		color: 'yellow',
 		description:
-			'Deployed 100+ Azure policies to enforce user restrictions and ensure compliance with corporate security standards.',
+			'Implemented comprehensive FinOps practices and right-sizing strategies achieving $1.4M+ annual savings (25% cost reduction). Automated cost governance, resource optimization, and implemented chargeback mechanisms across multiple business units.',
 		shortDescription:
-			'Deployed 100+ Azure policies to enforce user restrictions and ensure compliance with corporate security standards.',
+			'FinOps implementation achieving $1.4M+ annual cost savings through optimization.',
+		links: [],
+		logo: Assets.Azure,
+		name: 'Cloud Cost Optimization & FinOps',
+		period: { from: new Date(2023, 0), to: new Date(2024, 11) },
+		skills: getSkills('azure', 'automation', 'powershell', 'python'),
+		type: 'Cost Management'
+	},
+	{
+		slug: 'cicd-pipeline-automation',
+		color: 'orange',
+		description:
+			'Engineered GitLab CI/CD pipelines with ArgoCD reducing deployment time by 94% (4 hours to 15 minutes). Built 40+ Azure DevOps pipelines for Java applications with GitHub Actions integration, improving release velocity by 45%.',
+		shortDescription:
+			'Advanced CI/CD pipeline automation reducing deployment time by 94%.',
+		links: [],
+		logo: Assets.Devops,
+		name: 'CI/CD Pipeline Automation',
+		period: { from: new Date(2020, 0), to: new Date(2024, 11) },
+		skills: getSkills('gitlab', 'devops', 'github', 'kubernetes', 'docker'),
+		type: 'DevOps'
+	},
+	{
+		slug: 'azure-governance-policies',
+		color: 'red',
+		description:
+			'Deployed 100+ Azure policies to enforce user restrictions and ensure compliance with corporate security standards. Implemented comprehensive governance frameworks improving security posture by 85% across enterprise environments.',
+		shortDescription:
+			'Enterprise Azure governance with 100+ policies improving security by 85%.',
 		links: [],
 		logo: Assets.Policy,
-		name: 'Policies and Controls development in Azure',
-		period: { from: new Date(2020, 11), to: new Date(2023, 11) },
-		skills: getSkills('svelte', 'ts', 'tailwind', 'sass'),
+		name: 'Azure Governance & Policy Framework',
+		period: { from: new Date(2020, 10), to: new Date(2024, 10) },
+		skills: getSkills('azure', 'security', 'policy', 'governance'),
 		type: 'Governance'
 	},
 	{
-		slug: 'datadog-integration',
-		color: 'pink',
-		description:
-			'Automated the integration of DataDog with Azure services for enhanced logging and real-time monitoring capabilities.',
-		shortDescription:
-			'Automated the integration of DataDog with Azure services for enhanced logging and real-time monitoring capabilities.',
-		links: [],
-		logo: Assets.Datadog,
-		name: 'DataDog Logging and Monitoring integrations automation',
-		period: { from: new Date(2022, 11), to: new Date(2023, 2) },
-		skills: getSkills('svelte', 'ts', 'tailwind', 'sass'),
-		type: 'Monitoring'
-	},
-	{
-		slug: 'azure-access-mgmt',
-		color: 'orange',
-		description:
-			'Automated Azure access management processes, enhancing security through streamlined role-based access controls.',
-		shortDescription:
-			'Automated Azure access management processes, enhancing security through streamlined role-based access controls.',
-		links: [],
-		logo: Assets.Security,
-		name: 'Azure access management automation',
-		period: { from: new Date(2024, 4), to: new Date(2024, 6) },
-		skills: getSkills('svelte', 'ts', 'tailwind', 'sass'),
-		type: 'Security'
-	},
-	{
-		slug: 'golden-images-development',
-		color: 'cyan',
-		description:
-			'Developed hardened Windows and Linux golden images to ensure secure and consistent system deployments.',
-		shortDescription:
-			'Developed hardened Windows and Linux golden images to ensure secure and consistent system deployments.',
-		links: [],
-		logo: Assets.GoldenImage,
-		name: 'Windows & Linux Golden Images development',
-		period: { from: new Date(2024, 4), to: new Date(2024, 7) },
-		skills: getSkills('svelte', 'ts', 'tailwind', 'sass'),
-		type: 'OS'
-	},
-	{
-		slug: 'pim-mgmt-automation',
+		slug: 'zero-trust-security',
 		color: 'red',
 		description:
-			'Automated Privileged Identity Management (PIM) to manage and secure elevated access within the Azure environment.',
+			'Architected and implemented Zero Trust security models with identity-based access controls and network segmentation. Enhanced organizational security posture by 85% through comprehensive security automation and monitoring.',
 		shortDescription:
-			'Automated Privileged Identity Management (PIM) to manage and secure elevated access within the Azure environment.',
+			'Zero Trust security implementation enhancing security posture by 85%.',
 		links: [],
 		logo: Assets.Security,
-		name: 'Privileged Identity Management automation',
-		period: { from: new Date(2023, 8), to: new Date(2023, 11) },
-		skills: getSkills('svelte', 'ts', 'tailwind', 'sass'),
+		name: 'Zero Trust Security Architecture',
+		period: { from: new Date(2023, 0), to: new Date(2024, 11) },
+		skills: getSkills('security', 'azure', 'aad', 'network'),
 		type: 'Security'
 	},
 	{
-		slug: 'cloud-to-cloud-migrate',
-		color: 'blue',
+		slug: 'container-security-scanning',
+		color: 'cyan',
 		description:
-			'Facilitated cross-cloud migrations, ensuring efficient data transfer and service continuity across multiple cloud platforms.',
+			'Implemented comprehensive container scanning and vulnerability management solutions cutting security incidents by 40%. Automated SAST, DAST, and container security across CI/CD pipelines ensuring secure deployments.',
 		shortDescription:
-			'Facilitated cross-cloud migrations, ensuring efficient data transfer and service continuity across multiple cloud platforms.',
+			'Container security automation reducing security incidents by 40%.',
 		links: [],
-		logo: Assets.Migration,
-		name: 'Cloud to Cloud Migrations',
-		period: { from: new Date(2024, 4) },
-		skills: getSkills('svelte', 'ts', 'tailwind', 'sass'),
-		type: 'Migration'
+		logo: Assets.Docker,
+		name: 'Container Security & Vulnerability Management',
+		period: { from: new Date(2022, 0), to: new Date(2024, 11) },
+		skills: getSkills('docker', 'security', 'kubernetes', 'devops'),
+		type: 'Security'
+	},
+	{
+		slug: 'infrastructure-monitoring',
+		color: 'green',
+		description:
+			'Designed and implemented comprehensive monitoring solutions using Prometheus, Grafana, and Azure Monitor for enhanced observability across cloud infrastructure and applications serving 100K+ users.',
+		shortDescription:
+			'Enterprise monitoring infrastructure with comprehensive observability solutions.',
+		links: [],
+		logo: Assets.Datadog,
+		name: 'Infrastructure Monitoring & Observability',
+		period: { from: new Date(2022, 0), to: new Date(2024, 11) },
+		skills: getSkills('azure', 'monitoring', 'kubernetes', 'devops'),
+		type: 'Monitoring'
 	}
 ];
 

@@ -37,23 +37,82 @@ const defineCert = <S extends string>(
 
 export const items = [
 	defineCert({
+		slug: 'az-400',
+		color: 'blue',
+		description:
+			'Microsoft Certified',
+		logo: Assets.Az400,
+		name: 'Azure DevOps Expert (AZ-400)',
+		category: 'devops-tools',
+	}),
+	defineCert({
+		slug: 'tf-associate',
+		color: 'purple',
+		description:
+			'HashiCorp Certified',
+		logo: Assets.Terraform,
+		name: 'HashiCorp Terraform Associate',
+		category: 'config-mgmt'
+	}),
+	defineCert({
+		slug: 'az-500',
+		color: 'red',
+		description: 'Microsoft Certified',
+		logo: Assets.Az500,
+		name: 'Azure Security Engineer Associate (AZ-500)',
+		category: 'cloud'
+	}),
+	defineCert({
 		slug: 'az-700',
 		color: 'green',
 		description:
 			'Microsoft Certified',
 		logo: Assets.Az700,
-		name: 'Network Engineer Associate (AZ-700)',
+		name: 'Azure Network Engineer Associate (AZ-700)',
 		category: 'cloud',
-		// completeDate: 'June 2022'
 	}),
 	defineCert({
-		slug: 'az-400',
+		slug: 'cka',
 		color: 'orange',
 		description:
+			'CNCF Certified',
+		logo: Assets.Kubernetes,
+		name: 'Certified Kubernetes Administrator (CKA)',
+		category: 'containerization'
+	}),
+	defineCert({
+		slug: 'az-104',
+		color: 'cyan',
+		description: 'Microsoft Certified',
+		logo: Assets.Az104,
+		name: 'Azure Administrator Associate (AZ-104)',
+		category: 'cloud'
+	}),
+	defineCert({
+		slug: 'az-204',
+		color: 'yellow',
+		description: 'Microsoft Certified',
+		logo: Assets.Az204,
+		name: 'Azure Developer Associate (AZ-204)',
+		category: 'cloud'
+	}),
+	defineCert({
+		slug: 'az-300',
+		color: 'blue',
+		description:
 			'Microsoft Certified',
-		logo: Assets.AzDevOps,
-		name: 'Azure DevOps Expert (AZ-400)',
-		category: 'devops-tools',
+		logo: Assets.Az300,
+		name: 'Azure Solutions Architect Technologies (AZ-300)',
+		category: 'cloud'
+	}),
+	defineCert({
+		slug: 'oracle-cloud-foundations',
+		color: 'red',
+		description:
+			'Oracle Certified',
+		logo: Assets.Oracle,
+		name: 'Oracle Cloud Infrastructure Foundations',
+		category: 'cloud'
 	}),
 	defineCert({
 		slug: 'api-architect',
@@ -110,65 +169,6 @@ export const items = [
 		category: 'cloud'
 	}),
 	defineCert({
-		slug: 'az-204',
-		color: 'red',
-		description: 'Microsoft Certified',
-		logo: Assets.Az204,
-		name: 'Azure Developer Associate (AZ-204)',
-		category: 'cloud'
-	}),
-	defineCert({
-		slug: 'az-500',
-		color: 'orange',
-		description: 'Microsoft Certified',
-		logo: Assets.Az500,
-		name: 'Azure Security Engineer Associate (AZ-500)',
-		category: 'cloud'
-	}),
-	defineCert({
-		slug: 'az-104',
-		color: 'green',
-		description: 'Microsoft Certified',
-		logo: Assets.Az104,
-		name: 'Azure Administrator Associate (AZ-104)',
-		category: 'cloud'
-	}),
-	// defineCert({
-	// 	slug: 'az-305',
-	// 	color: 'purple',
-	// 	description: 'Microsoft Certified',
-	// 	logo: Assets.Az305,
-	// 	name: 'Azure Solutions Architect (AZ-305)',
-	// 	category: 'cloud'
-	// }),
-	defineCert({
-		slug: 'az-300',
-		color: 'blue',
-		description:
-			'Microsoft Certified',
-		logo: Assets.Az300,
-		name: 'Azure Solutions Architect Technologies (AZ-300)',
-		category: 'cloud'
-	}),
-	defineCert({
-		slug: 'cka',
-		color: 'orange',
-		description:
-			'LinuxFoundation Certified',
-		logo: Assets.Kubernetes,
-		name: 'Kubernetes Administrator (CKA)',
-		category: 'containerization'
-	}),
-	defineCert({
-		slug: 'tf-associate',
-		color: 'green',
-		description:
-			'Hashicorp Certified',
-		logo: Assets.Terraform,
-		name: 'Terraform Associate',
-		category: 'config-mgmt'
-	}),
-	defineCert({
 		slug: 'gitlab-associate',
 		color: 'yellow',
 		description:
@@ -185,61 +185,7 @@ export const items = [
 		logo: Assets.WinServer,
 		name: 'Solutions Associate (MCSA)',
 		category: 'os'
-	}),
-	// defineCert({
-	// 	slug: 'aws-solutions-architect-associate',
-	// 	color: 'orange',
-	// 	description:
-	// 		'Amazon Web Services',
-	// 	logo: Assets.Git,
-	// 	name: 'Solutions Architect Associate',
-	// 	category: 'devops-tools'
-	// }),
-	// defineCert({
-	// 	slug: 'aws-solutions-architect-professional',
-	// 	color: 'cyan',
-	// 	description:
-	// 		'Amazon Web Services',
-	// 	logo: Assets.Github,
-	// 	name: 'Solutions Architect Professional',
-	// 	category: 'devops-tools'
-	// }),
-	// defineCert({
-	// 	slug: 'gcp-associate-cloud-engineer',
-	// 	color: 'red',
-	// 	description:
-	// 		'Google Cloud',
-	// 	logo: Assets.Gitlab,
-	// 	name: 'Associate Cloud Engineer',
-	// 	category: 'devops-tools'
-	// }),
-	// defineCert({
-	// 	slug: 'cka',
-	// 	color: 'blue',
-	// 	description:
-	// 		'Linux Foundation',
-	// 	logo: Assets.Go,
-	// 	name: 'Certified Kubernetes Administrator',
-	// 	category: 'containerization'
-	// }),
-	// defineCert({
-	// 	slug: 'ckad',
-	// 	color: 'green',
-	// 	description:
-	// 		'Linux Foundation',
-	// 	logo: Assets.Kubernetes,
-	// 	name: 'Certified Kubernetes Administrator',
-	// 	category: 'containerization'
-	// }),
-	// defineCert({
-	// 	slug: 'cks',
-	// 	color: 'yellow',
-	// 	description:
-	// 		'Linux Foundation',
-	// 	logo: Assets.Ubuntu,
-	// 	name: 'Certified Kubernetes Security Specialist',
-	// 	category: 'containerization'
-	// }),
+	})
 ] as const ;
 
 export const title = 'Certifications';

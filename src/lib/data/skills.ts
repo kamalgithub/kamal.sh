@@ -231,6 +231,69 @@ export const items = [
 		logo: Assets.Terraform,
 		name: 'Terraform',
 		category: 'config-mgmt'
+	}),
+	defineSkill({
+		slug: 'argocd',
+		color: 'orange',
+		description:
+			'Implemented GitOps workflows with ArgoCD for automated application deployment and management in Kubernetes environments. Reduced deployment time by 94% through streamlined CI/CD operations.',
+		logo: Assets.Kubernetes,
+		name: 'ArgoCD',
+		category: 'devops-tools'
+	}),
+	defineSkill({
+		slug: 'helm',
+		color: 'green',
+		description:
+			'Extensive experience in Helm chart development and management for Kubernetes applications. Created standardized deployment templates and managed complex multi-environment deployments.',
+		logo: Assets.Kubernetes,
+		name: 'Helm',
+		category: 'containerization'
+	}),
+	defineSkill({
+		slug: 'finops',
+		color: 'yellow',
+		description:
+			'Implemented FinOps practices and cost optimization strategies, achieving $1.4M+ annual savings through right-sizing, resource optimization, and automated cost governance.',
+		logo: Assets.Azure,
+		name: 'FinOps & Cost Optimization',
+		category: 'cloud'
+	}),
+	defineSkill({
+		slug: 'prometheus',
+		color: 'red',
+		description:
+			'Designed and implemented monitoring solutions using Prometheus and Grafana for comprehensive observability across cloud infrastructure and applications.',
+		logo: Assets.Security,
+		name: 'Prometheus & Grafana',
+		category: 'devops-tools'
+	}),
+	defineSkill({
+		slug: 'github-actions',
+		color: 'purple',
+		description:
+			'Built and maintained GitHub Actions workflows for CI/CD pipelines, automated testing, and deployment processes across multiple projects and environments.',
+		logo: Assets.Github,
+		name: 'GitHub Actions',
+		category: 'devops-tools'
+	}),
+	defineSkill({
+		slug: 'azure-policy',
+		color: 'blue',
+		description:
+			'Implemented comprehensive Azure Policy frameworks for governance and compliance, managing 100+ policies across enterprise environments with 85% security posture improvement.',
+		logo: Assets.Policy,
+		name: 'Azure Policy & Governance',
+		category: 'cloud'
+	}),
+	defineSkill({
+		slug: 'zero-trust',
+		color: 'red',
+		description:
+			'Architected and implemented Zero Trust security models, enhancing organizational security posture by 85% through identity-based access controls and network segmentation.',
+		logo: Assets.Security,
+		name: 'Zero Trust Security',
+		category: 'cloud'
 	})
 ] as const;
 

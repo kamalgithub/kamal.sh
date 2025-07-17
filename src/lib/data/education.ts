@@ -3,58 +3,50 @@ import type { Education } from '../types';
 
 export const items: Array<Education> = [
 	{
-		degree: 'Masters of Computer Applications',
-		description: '',
-		location: 'Delhi, India',
+		degree: 'Master of Computer Applications (MCA)',
+		description: 'Advanced computer science and applications with focus on cloud computing, software engineering, and modern development practices.',
+		location: 'Bangalore, India',
 		logo: Assets.Jain,
 		name: '',
 		organization: 'Jain University',
-		period: { from: new Date(2021, 8, 1), to: new Date(2023, 8, 1) },
-		shortDescription: '',
+		period: { from: new Date(2021, 5, 1), to: new Date(2023, 6, 1) },
+		shortDescription: 'Grade: 8.7/10',
 		slug: 'edu-mca',
+		color: 'blue',
 		subjects: [
 			'Database Management Systems',
-			'Cloud Engineering',
+			'Cloud Computing & Engineering',
+			'Software Engineering',
 			'Computer Architecture',
-			'Algorithms and Data structures',
+			'Algorithms and Data Structures',
 			'Machine Learning',
 			'Web Development',
-			'DevOps'
-		]
-	},
-	{
-		degree: 'Bachelor of Computer Applications',
-		description: '',
-		location: 'Delhi, India',
-		logo: Assets.Smu,
-		name: '',
-		organization: 'Sikkim Manipal University',
-		period: { from: new Date(2013, 6, 1), to: new Date(2016, 5, 30) },
-		shortDescription: '',
-		slug: 'edu-bca',
-		subjects: [
-			'Algorithm',
-			'Algebra',
-			'Python',
-			'C++',
-			'Java',
-			'Computer Networks',
-			'Computer Architecture',
-			'DSA',
+			'DevOps Practices',
 			'Cybersecurity'
 		]
 	},
 	{
-		degree: 'O Level (Computer Programming)',
-		description: '',
+		degree: 'Bachelor of Computer Applications (BCA)',
+		description: 'Fundamental computer science concepts with programming languages and system administration.',
 		location: 'Delhi, India',
-		logo: Assets.Doeacc,
+		logo: Assets.Smu,
 		name: '',
-		organization: 'DOEACC',
-		period: { from: new Date(2016, 6, 1), to: new Date(2017, 6, 1) },
-		shortDescription: '',
-		slug: 'edu-olevel',
-		subjects: ['C', 'Web Technologies', 'C++', 'Multimedia Design', 'Computer Organization']
+		organization: 'Sikkim Manipal University',
+		period: { from: new Date(2013, 5, 1), to: new Date(2016, 6, 1) },
+		shortDescription: 'Grade: 6.3/10',
+		slug: 'edu-bca',
+		color: 'green',
+		subjects: [
+			'Programming Fundamentals',
+			'Algorithms & Data Structures',
+			'Python Programming',
+			'C++ Programming',
+			'Java Programming',
+			'Computer Networks',
+			'Computer Architecture',
+			'Database Systems',
+			'Cybersecurity Fundamentals'
+		]
 	}
 ];
 

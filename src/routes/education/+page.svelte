@@ -52,7 +52,7 @@
 						<UIcon icon="i-carbon-condition-point" />
 					</div>
 					<div class="col flex-1 items-stretch">
-						<Card>
+						<Card color={education.color}>
 							<div class="flex-1 col gap-2 items-stretch">
 								<img
 									src={getAssetURL(education.logo)}

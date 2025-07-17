@@ -8,7 +8,7 @@ export const name = 'Kamal';
 export const lastName = 'Kumar';
 
 export const description =
-	"Hi, I’m Kamal Kumar 👋 — Tech enthusiast 🧑‍💻, YouTube creator 📽️, and Lead Platform Engineer. I’m passionate about code optimization, security, and automation. I’d happily spend 2 hours automating a 10-minute reoccurring task 😅!";
+	"Cloud & DevOps SME — Engineering the future of cloud";
 
 export const links: Array<{ platform: Platform; link: string }> = [
 	{
