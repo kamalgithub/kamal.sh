@@ -25,7 +25,7 @@
 <div
 	class="col self-center flex-1 md:flex-row md:slef-stretch justify-center lg:justify-between items-center p-y-0px p-x-10px"
 >
-	<div class="md:flex-1 gap-10px">
+	<div class="md:flex-1 gap-10px px-4 md:px-0">
 		<MainTitle classes="text-left">{name} {lastName},</MainTitle>
 
 		<p
