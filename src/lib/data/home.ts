@@ -8,7 +8,7 @@ export const name = 'Kamal';
 export const lastName = 'Kumar';
 
 export const description =
-	"Cloud & DevOps SME — Engineering the future of cloud";
+	"Cloud & DevOps Engineer — Engineering the future of cloud ⛅";
 
 export const links: Array<{ platform: Platform; link: string }> = [
 	{
