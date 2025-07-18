@@ -35,7 +35,7 @@
 		</p>
 
 		<div class="col gap-3 p-y-20px">
-			<div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+			<div class="grid grid-cols-1 md:grid-cols-2 gap-4 px-4 md:px-0">
 				<div>
 					<h4 class="text-[var(--accent-text)] mb-2">Cloud Architecture</h4>
 					<p class="text-[var(--tertiary-text)] text-sm font-extralight">
